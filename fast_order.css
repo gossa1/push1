@@ -1,0 +1,88 @@
+#fast_order_form .fast_order_left {
+  display: inline-block;
+  width: 28%;
+  text-align: right;
+  padding-top: 6px;
+}
+
+#fast_order_form .fast_order_right {
+  float: right;
+  display: inline-block;
+  width: 70%;
+  text-align: left;
+}
+#fast_order_form .fast_order_right p {
+  margin-bottom: 15px;
+  padding: 0px;
+}
+#fast_order_form .fast_order_center {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #1c0400;
+}
+#fast_order_form #fast_order_result {
+  color: #aaa;
+  margin-bottom: 14px;
+}
+#fast_order_form #fast_order_result .fast_order_error {
+  color: #f00;
+  font-size: 16px;
+}
+#fast_order_form #fast_order_result .fast_order_success {
+  color: #00d12a;
+  font-size: 20px;
+  line-height: 35px;
+}
+#fast_order_form p {
+  margin-bottom: 28px;
+  padding: 0px;
+}
+
+#fast_order_form input {
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+  width: 287px;
+  border-radius: 3px;
+}
+
+#fast_order_form .fast_order_button {
+  font-size: 17px;
+  cursor: pointer;
+  height: 40px;
+  width: 220px;
+  background: #510303;
+  border-radius: 5px;
+  border: 1px #888 solid;
+  color: #fff;
+}
+
+/*Дописанное правило*/
+
+#fast_order_form .fast_order_button:hover {
+    background: #DF5E26;
+    -webkit-transition: 250ms ease-in-out;
+    -moz-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+
+.fast_order_button {
+    background: #510303;
+    border-radius: 5px;
+    border: 1px #888 solid;
+    color: #fff;
+}
+
+.fast_order_button:hover {
+    background: #DF5E26;
+    -webkit-transition: 250ms ease-in-out;
+    -moz-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+
+.fast_order_center {
+    font-size: 16px;
+}
